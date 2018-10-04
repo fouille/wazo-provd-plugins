@@ -22,11 +22,15 @@ MODELS = [
     u'VVX101',
     u'VVX201',
     u'VVX300',
+    u'VVX301',
     u'VVX310',
+    u'VVX311',
     u'VVX400',
     u'VVX410',
+    u'VVX411',
     u'VVX500',
     u'VVX600',
+    u'VVX601',
     u'VVX1500',
 ]
 
