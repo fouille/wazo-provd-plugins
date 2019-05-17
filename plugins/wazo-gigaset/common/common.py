@@ -11,12 +11,12 @@ import datetime
 from provd.devices.pgasso import BasePgAssociator, IMPROBABLE_SUPPORT,\
     COMPLETE_SUPPORT, FULL_SUPPORT, UNKNOWN_SUPPORT
 from provd.plugins import StandardPlugin, TemplatePluginHelper, FetchfwPluginHelper
-from provd.util import norm_mac, format_mac, to_ip
+from provd.util import norm_mac, format_mac
 from provd import synchronize
 from provd import plugins
 from provd import tzinform
 from provd.servers.http import HTTPNoListingFileService
-from twisted.internet import defer, threads
+from twisted.internet import defer
 
 logger = logging.getLogger('plugin.wazo-gigaset')
 
