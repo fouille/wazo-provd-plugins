@@ -1,0 +1,13 @@
+__pycache__
+.coverage
+.tox
+*.pyc
+coverage.xml
+htmlcov
+dhcp/dhcpd.tar*
+plugins/_build
+plugins/_firmwares/*/*
+!plugins/_firmwares/*/.brand
+pycodestyle.txt
+pylint.txt
+unit-tests.xml

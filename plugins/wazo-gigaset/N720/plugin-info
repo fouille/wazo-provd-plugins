@@ -1,14 +1,16 @@
 {
-    "version": "0.1.5",
+    "version": "0.1.14",
     "description": "Plugin for Gigaset N720 IP/DM PRO.",
     "description_fr": "Greffon pour Gigaset N720 IP/DM PRO.",
     "capabilities": {
-        "Gigaset, N720 IP/DM PRO, 70.111": {
+        "Gigaset, N720 IP/DM PRO, 70.117": {
             "lines": 100,
             "high_availability": false,
             "function_keys": 0,
             "expansion_modules": 0,
             "switchboard": false,
+            "type": "dect",
+            "multicell": false,
             "protocol": "sip"
         }
     },

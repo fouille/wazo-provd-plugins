@@ -20,8 +20,19 @@
         # Alcatel
         allow members of "Alcatel-NOE";
         allow members of "Alcatel-SIP";
+        allow members of "Alcatel-Myriad-ictouch-SIP";
         # Cisco
         allow members of "CiscoCP-unknown";
+        allow members of "CiscoCP-6821";
+        allow members of "CiscoCP-6841";
+        allow members of "CiscoCP-6851";
+        allow members of "CiscoCP-6861";
+        allow members of "CiscoCP-6871";
+        allow members of "CiscoCP-7811";
+        allow members of "CiscoCP-7821";
+        allow members of "CiscoCP-7832";
+        allow members of "CiscoCP-7841";
+        allow members of "CiscoCP-7861";
         allow members of "CiscoCP-7902G";
         allow members of "CiscoCP-7905G";
         allow members of "CiscoCP-7906G";
@@ -45,6 +56,10 @@
         allow members of "CiscoCP-7970G";
         allow members of "CiscoCP-7971G-GE";
         allow members of "CiscoCP-7975G";
+        allow members of "CiscoCP-8811";
+        allow members of "CiscoCP-8841";
+        allow members of "CiscoCP-8851";
+        allow members of "CiscoCP-8861";
         allow members of "CiscoCP-8941";
         allow members of "CiscoCP-8945";
         allow members of "CiscoCP-8961";
@@ -63,6 +78,8 @@
         allow members of "CiscoSMBSPA122";
         # CiscoATA
         allow members of "CiscoATA190";
+        allow members of "CiscoATA191MPP";
+        allow members of "CiscoATA192MPP";
         # Digium
         allow members of "DigiumD40";
         allow members of "DigiumD50";

@@ -1,50 +1,34 @@
-# -*- coding: utf-8 -*-
-
-# Copyright (C) 2017 Wazo Authors
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>
-
-import os
+# Copyright 2017-2020 The Wazo Authors  (see the AUTHORS file)
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 common_globals = {}
 execfile_('common.py', common_globals)
 
 MODEL_VERSIONS = {
-    u'UC926': u'2.0.4.4.58',
-    u'UC926E': u'2.0.4.4.58',
-    u'UC924': u'2.0.4.4.58',
-    u'UC924E': u'2.0.4.4.58',
-    u'UC923': u'2.0.4.4.58',
-    u'UC912': u'2.0.4.4.58',
-    u'UC912E': u'2.0.4.4.58',
-    u'UC912G': u'2.0.4.4.58',
-    u'UC903': u'2.0.4.4.58',
-    u'UC902': u'2.0.4.4.58',
-    u'UC862': u'2.0.4.4.58',
-    u'UC860': u'2.0.4.4.58',
-    u'UC860P': u'2.0.4.4.58',
-    u'UC842': u'2.0.4.4.58',
-    u'UC840': u'2.0.4.4.58',
-    u'UC840P': u'2.0.4.4.58',
-    u'UC806': u'2.0.4.4.58',
-    u'UC806T': u'2.0.4.4.58',
-    u'UC804': u'2.0.4.4.58',
-    u'UC804T': u'2.0.4.4.58',
-    u'UC803': u'2.0.4.4.58',
-    u'UC803T': u'2.0.4.4.58',
-    u'UC802': u'2.0.4.4.58',
-    u'UC802T': u'2.0.4.4.58',
+    'UC926': '2.0.4.4.58',
+    'UC926E': '2.0.4.4.58',
+    'UC924': '2.0.4.4.58',
+    'UC924E': '2.0.4.4.58',
+    'UC923': '2.0.4.4.58',
+    'UC912': '2.0.4.4.58',
+    'UC912E': '2.0.4.4.58',
+    'UC912G': '2.0.4.4.58',
+    'UC903': '2.0.4.4.58',
+    'UC902': '2.0.4.4.58',
+    'UC862': '2.0.4.4.58',
+    'UC860': '2.0.4.4.58',
+    'UC860P': '2.0.4.4.58',
+    'UC842': '2.0.4.4.58',
+    'UC840': '2.0.4.4.58',
+    'UC840P': '2.0.4.4.58',
+    'UC806': '2.0.4.4.58',
+    'UC806T': '2.0.4.4.58',
+    'UC804': '2.0.4.4.58',
+    'UC804T': '2.0.4.4.58',
+    'UC803': '2.0.4.4.58',
+    'UC803T': '2.0.4.4.58',
+    'UC802': '2.0.4.4.58',
+    'UC802T': '2.0.4.4.58',
 }
 
 COMMON_FILES = [
